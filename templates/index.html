@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+        <meta charset="UTF-8">
+        <title> Car Search Redirector</title>
+        <script src = "https://cdn.tailwindcss.com"></script>
+        <script>
+            // carData is injected from app.py as a JSON object
+            const carData = {{ car_data | tojson }};
+
+            // formattedMakes is injected from app.py as a JSON object
+            const formattedMakes = {{ formatted_makes | tojson }};
+        </script>
+        <script src = "/static/script.js"></script>
+    </head>
+    <body class="bg-gray-100 h-screen flex items-center justify-center">
+        <div>
+            <h1 class="bg-slate-400 font-bold text-center p-4"> Search For Your Car</h1>
+            <form method="POST" class="bg-white p-8 rounded shadow-md w-80">
+
+                <!--Custom Dropdown container catering to filter + suggesstions functionality-->
+                <div class="relative">
+                    <input
+                        type="text"
+                        id="make"
+                        name="make"
+                        placeholder="Enter Make"
+                        autocomplete="off"
+                        class="border border-gray-300 p-2 rounded w-full hover:shadow-md"
+                        oninput="filterDropdown()"
+                        onfocus="showDropdown()"
+                        onblur="hideDropdown()"
+                        required>
+
+                    <!--Dropdown List-->
+                    <div id="makeDropdown" class="absolute z-10 w-full bg-white border border-gray-300 rounded hidden max-h-60 overflow-y-auto shadow-md">
+                        <!--Suggestions will be populated here-->
+                    </div>
+                </div>
+
+                <select name="model" id="model" class="border border-gray-300 mt-4 p-2 rounded w-full mb-4 hover:shadow-md">
+                    <option value="">Select Model</option>
+                </select>
+
+                <!--Input + filtered dropdown
+                Looks like browser autocomplete suggestions 
+                
+                <input list="make-list" name="make" id="make" placeholder="Enter Make"
+                    class="border border-gray-300 p-2 rounded w-full mb-4 hover:shadow-md" autocomplete="off" 
+                    required>
+                <datalist id="make-list"></datalist>
+
+                <select name="model" id="model" class="border border-gray-300 p-2 rounded w-full mb-4 hover:shadow-md">
+                    <option value="">Select Model</option>
+                </select>-->
+
+                <!--Basic dropdown view
+                <select name="make" id="make" class="border border-gray-300 p-2 rounded w-full mb-4 hover:shadow-md" onchange="updateModels()">
+                    <option value="" disabled selected>Select Make</option>
+                    <option value="bmw">BMW</option>
+                </select>
+
+                <select name="model" id="model" class="border border-gray-300 p-2 rounded w-full mb-4 hover:shadow-md">
+                    <option value="" selected>Select Model</option>
+                </select>-->
+
+                <!--Basic type in form view
+                <label>Make:</label>
+                <input type = "text" name = "make" placeholder = "Enter Make (eg., Ford)" required
+                    class="mb-2 p-2 w-full border border-gray-300 rounded"><br><br>
+                <label>Model:</label>
+                <input type = "text" name = "model" placeholder = "Enter Model (eg., Mustang)"
+                    class="mb-4 p-2 w-full border border-gray-300 rounded"><br><br>-->
+                <button type = "submit" id="searchButton"
+                        class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 hover:shadow-md">Search</button>
+            </form>
+        </div>
+    </body>
+</html>

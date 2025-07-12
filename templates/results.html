@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Links</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-gray-100 h-screen flex items-center justify-center">
+        <div class="bg-white p-8 rounded shadow-lg text-center">
+            <h2 class="font-semibold mb-2">Search on these sites for:</h2>
+            <p class="text-gray-800 capitalize">{{make_display}} {{model_display}}</p>
+            <a href="https://dubai.dubizzle.com/motors/used-cars/{{make_lower}}/{{model_lower}}"
+                class="inline-block mt-6 bg-rose-600 text-white px-6 py-2 rounded hover:bg-rose-400 hover:shadow-md"
+                target="_blank">View on Dubizzle</a>
+            <a href="/" class="block mt-4 text-blue-600 hover:underline text-sm">Go Back</a>
+        </div>
+    </body>
+</html>
