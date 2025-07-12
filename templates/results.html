@@ -5,14 +5,23 @@
         <title>Links</title>
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body class="bg-gray-100 h-screen flex items-center justify-center">
-        <div class="bg-white p-8 rounded shadow-lg text-center">
-            <h2 class="font-semibold mb-2">Search on these sites for:</h2>
-            <p class="text-gray-800 capitalize">{{make_display}} {{model_display}}</p>
-            <a href="https://dubai.dubizzle.com/motors/used-cars/{{make_lower}}/{{model_lower}}"
-                class="inline-block mt-6 bg-rose-600 text-white px-6 py-2 rounded hover:bg-rose-400 hover:shadow-md"
-                target="_blank">View on Dubizzle</a>
-            <a href="/" class="block mt-4 text-blue-600 hover:underline text-sm">Go Back</a>
+    <body class="bg-gray-100 h-screen">
+        <a href="/" class="text-teal-800 text-sm">
+            <div class="mx-4 mt-4 w-12 h-12 bg-gray-100 rounded-full shadow-lg hover:text-teal-800 hover:bg-white flex items-center justify-center">
+                Back
+            </div>
+        </a>
+        <div class="bg-slate-400 mx-8 mt-8 h-16 p-4 flex items-center">
+            <h1 class="text-lg font-bold mb-2">Search on these sites for:</h1>
         </div>
+        <div class="bg-white mx-8 p-6 shadow-md">
+            <p class="text-gray-800 mb-8 font-semibold">{{make_display}} {{model_display}}</p>
+            <a href="https://dubai.dubizzle.com/motors/used-cars/{{make_lower}}/{{model_lower}}"
+                class="inline-block mt-16 bg-rose-600 text-white px-6 py-2 rounded hover:bg-rose-400 hover:shadow-md"
+                target="_blank">
+                View on Dubizzle
+            </a>
+        </div>
+        
     </body>
 </html>

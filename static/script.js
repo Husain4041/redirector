@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
             item.onclick = () => {
                 makeInput.value = formattedMakes[make];;
                 dropdown.classList.add("hidden");
+                document.getElementById("model").focus(); // Move focus to model input
                 makeInput.dispatchEvent(new Event("change"));
             };
             dropdown.appendChild(item);
@@ -41,9 +42,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function showDropdown() {
-        if(makeInput.value.trim() !== "") {
-            filterDropdown();
-        }
+        // if(makeInput.value.trim() !== "") {
+        //     filterDropdown();
+        // }
+        filterDropdown();
     }
 
     function hideDropdown() {
