@@ -28,10 +28,10 @@ def scrape_makes_models():
         all_makes.add(make.lower())
 
     sorted_makes = sorted(list(all_makes))  # Sort the makes alphabetically
-    with open('dubizzle_makes.json', 'w') as f:
+    with open('car_makes.json', 'w') as f:
         json.dump(sorted_makes, f, indent=2)
 
-    print(f"Scraped {len(sorted_makes)} unique makes. Saved to 'dubizzle_makes.json'.")
+    print(f"Scraped {len(sorted_makes)} unique makes. Saved to 'car_makes.json'.")
 
 if __name__ == "__main__":
     scrape_makes_models()
