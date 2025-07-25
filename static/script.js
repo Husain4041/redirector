@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
             carData[selectedMake].forEach(model => {
                 const option = document.createElement("option");
                 option.value = model;
-                option.text = model.charAt(0) + model.slice(1);
+                option.text = model.charAt(0).toUpperCase() + model.slice(1); // Capitalize first letter
                 modelSelect.appendChild(option);
             });
         }
