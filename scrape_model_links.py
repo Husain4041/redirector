@@ -5,6 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from urllib.parse import urlparse
 import time
 import json
+import os
 
 def scrape_model_slugs(make_slug):
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
@@ -12,6 +13,19 @@ def scrape_model_slugs(make_slug):
     time.sleep(5)  # Wait for the page to load
 
     model_slugs = set()  # To store unique model slugs
+    filepath = 'car_data/make_model_links.json'
+    if os.path.exists(filepath):
+        with open(filepath, 'r') as f:
+            full_data = json.load(f)
+    else:
+        full_data = {"dubizzle": {}}
+    # full_data = {"dubizzle": {make_slug: {}}}
+
+    if "dubizzle" not in full_data:
+        full_data["dubizzle"] - {}
+
+    if make_slug not in full_data["dubizzle"]:
+        full_data["dubizzle"][make_slug] = {}
 
     input_box = driver.find_element(By.XPATH, '//input[@placeholder="Search Make, Model"]')
     input_box.click()
@@ -22,7 +36,9 @@ def scrape_model_slugs(make_slug):
 
     model_dropdown = driver.find_element(By.CSS_SELECTOR, 'ul[aria-labelledby="vehicle-autocomplete-label"]')
     options = model_dropdown.find_elements(By.CSS_SELECTOR, 'div[data-option-index]')
-    print(f"Found {len(options)} options for make: {make_slug}")
+    no_of_models = len(options)
+    print(f"Found {no_of_models} options for make: {make_slug}")
+    # input_box.clear()
 
     for index in range(len(options)):
         try:
@@ -50,6 +66,7 @@ def scrape_model_slugs(make_slug):
                 )
                 time.sleep(1)
 
+
             option = options[index] # Get the specific option by index
             model_name = option.text.strip()
 
@@ -62,6 +79,7 @@ def scrape_model_slugs(make_slug):
             href = driver.current_url
             print(f"{model_name} URL: {href}")
             model_slugs.add(href)
+            full_data['dubizzle'][make_slug][model_name] = href
 
             driver.back()
             time.sleep(3)  # Wait for the page to load after going back
@@ -81,14 +99,18 @@ def scrape_model_slugs(make_slug):
     #     path_parts = parsed.path.strip("/").split('/') # Strip path of leading/trailing slashes then split by slashes
 
 
-    sorted_model_slugs = sorted(list(model_slugs))  # Sort the model slugs alphabetically
-    with open(f'car_data/{make_slug}_model_slugs.json', 'w') as f:
-        json.dump(sorted_model_slugs, f, indent=2)
+    every_model_links = list(model_slugs)  # Sort the model slugs alphabetically
+    with open(filepath, 'w') as f:
+        json.dump(full_data, f, indent=2)
 
-    return len(model_slugs)
+    return len(full_data["dubizzle"][make_slug])
 
 if __name__ == "__main__":
     with open('car_data/car_makes.json', 'r') as f:
         car_makes = json.load(f)
 
-    print(f"Scraped {scrape_model_slugs('audi')} links for Audi.")
+    # for make in car_makes:
+    #     print(f"Scraped {scrape_model_slugs(make)} links for {make}.")
+
+    print(f"Scraped {scrape_model_slugs('abarth')} links for abarth.")
+    print(f"Scraped {scrape_model_slugs('acura')} links for acura.")

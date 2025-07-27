@@ -1,0 +1,25 @@
+{
+  "dubizzle": {
+    "abarth": {
+      "Abarth": "https://uae.dubizzle.com/motors/used-cars/abarth/",
+      "Abarth 124": "https://uae.dubizzle.com/motors/used-cars/abarth/124/",
+      "Abarth 1999": "https://uae.dubizzle.com/motors/used-cars/abarth/1999/",
+      "Abarth 500e": "https://uae.dubizzle.com/motors/used-cars/abarth/500e/",
+      "Abarth 595": "https://uae.dubizzle.com/motors/used-cars/abarth/595/",
+      "Abarth 695": "https://uae.dubizzle.com/motors/used-cars/abarth/695/",
+      "Abarth F595": "https://uae.dubizzle.com/motors/used-cars/abarth/f595/",
+      "Abarth Other": "https://uae.dubizzle.com/motors/used-cars/abarth/other/"
+    },
+    "acura": {
+      "Acura": "https://uae.dubizzle.com/motors/used-cars/acura/",
+      "Acura CSX/EL": "https://uae.dubizzle.com/motors/used-cars/acura/csxel/",
+      "Acura ILX": "https://uae.dubizzle.com/motors/used-cars/acura/ilx/",
+      "Acura MDX": "https://uae.dubizzle.com/motors/used-cars/acura/mdx/",
+      "Acura NSX": "https://uae.dubizzle.com/motors/used-cars/acura/nsx/",
+      "Acura Other": "https://uae.dubizzle.com/motors/used-cars/acura/other/",
+      "Acura RDX": "https://uae.dubizzle.com/motors/used-cars/acura/rdx/",
+      "Acura RSX/Integra": "https://uae.dubizzle.com/motors/used-cars/acura/rsxintegra/",
+      "Acura TLX": "https://uae.dubizzle.com/motors/used-cars/acura/tlx/"
+    }
+  }
+}
