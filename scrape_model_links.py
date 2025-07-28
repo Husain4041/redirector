@@ -8,11 +8,7 @@ import json
 import os
 
 def scrape_model_slugs(make_slug):
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-    driver.get(f"https://www.dubizzle.com/motors/used-cars/")
-    time.sleep(5)  # Wait for the page to load
 
-    model_slugs = set()  # To store unique model slugs
     filepath = 'car_data/make_model_links.json'
     if os.path.exists(filepath):
         with open(filepath, 'r') as f:
@@ -21,11 +17,38 @@ def scrape_model_slugs(make_slug):
         full_data = {"dubizzle": {}}
     # full_data = {"dubizzle": {make_slug: {}}}
 
+
+    if make_slug in full_data["dubizzle"]:
+            print(f'{make_slug} already exists in data file. Skipping {make_slug}')
+            return 0
+    
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+    driver.get(f"https://www.dubizzle.com/motors/used-cars/")
+    time.sleep(5)  # Wait for the page to load
+
     if "dubizzle" not in full_data:
         full_data["dubizzle"] - {}
 
     if make_slug not in full_data["dubizzle"]:
         full_data["dubizzle"][make_slug] = {}
+        
+    #------Following code is to count of total number of models per make------#
+
+    # filepath = 'car_data/models_count.json'
+    # if os.path.exists(filepath):
+    #     with open(filepath, 'r') as f:
+    #         models_per_make_count = json.load(f)
+    # else:
+    #     models_per_make_count = {"dubizzle": {}}
+    # # full_data = {"dubizzle": {make_slug: {}}}
+
+    # if "dubizzle" not in models_per_make_count:
+    #     models_per_make_count["dubizzle"] = {}
+
+    # if make_slug not in models_per_make_count["dubizzle"]:
+    #     models_per_make_count["dubizzle"][make_slug] = 0
+
+    #-------------------------------End of additional code-----------------------#
 
     input_box = driver.find_element(By.XPATH, '//input[@placeholder="Search Make, Model"]')
     input_box.click()
@@ -37,6 +60,7 @@ def scrape_model_slugs(make_slug):
     model_dropdown = driver.find_element(By.CSS_SELECTOR, 'ul[aria-labelledby="vehicle-autocomplete-label"]')
     options = model_dropdown.find_elements(By.CSS_SELECTOR, 'div[data-option-index]')
     no_of_models = len(options)
+    # models_per_make_count["dubizzle"][make_slug] = no_of_models
     print(f"Found {no_of_models} options for make: {make_slug}")
     # input_box.clear()
 
@@ -78,28 +102,24 @@ def scrape_model_slugs(make_slug):
 
             href = driver.current_url
             print(f"{model_name} URL: {href}")
-            model_slugs.add(href)
             full_data['dubizzle'][make_slug][model_name] = href
 
             driver.back()
             time.sleep(3)  # Wait for the page to load after going back
         except Exception as e:
             print(f"Error processing option {index} for {make_slug}: {e}")
-            
-        
 
     driver.quit()
-    
 
-    # anchors = driver.find_elements(By.TAG_NAME, 'a')  # Find all anchor tags
-    # for a in anchors: 
-    #     href = a.get_attribute('href') # Get the href attribute
-        
-    #     parsed = urlparse(href) # Parses the URL into usable components
-    #     path_parts = parsed.path.strip("/").split('/') # Strip path of leading/trailing slashes then split by slashes
+    #----Additional code to count total number of models per make------------# 
 
+    # with open(filepath, 'w') as f:
+    #     json.dump(models_per_make_count, f, indent=2)
 
-    every_model_links = list(model_slugs)  # Sort the model slugs alphabetically
+    # return no_of_models
+
+    #-----------------End of additional code----------------------------------#
+
     with open(filepath, 'w') as f:
         json.dump(full_data, f, indent=2)
 
@@ -109,8 +129,5 @@ if __name__ == "__main__":
     with open('car_data/car_makes.json', 'r') as f:
         car_makes = json.load(f)
 
-    # for make in car_makes:
-    #     print(f"Scraped {scrape_model_slugs(make)} links for {make}.")
-
-    print(f"Scraped {scrape_model_slugs('abarth')} links for abarth.")
-    print(f"Scraped {scrape_model_slugs('acura')} links for acura.")
+    for make in car_makes:
+        print(f"Scraped {scrape_model_slugs(make)} links for {make}.")
