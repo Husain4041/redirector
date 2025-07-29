@@ -39,26 +39,7 @@
       "Alfa Romeo Stelvio": "https://uae.dubizzle.com/motors/used-cars/alfa-romeo/stelvio/",
       "Alfa Romeo Tonale": "https://uae.dubizzle.com/motors/used-cars/alfa-romeo/tonale/"
     },
-    "alpine": {
-      "Renault Alpine A110": "https://uae.dubizzle.com/motors/used-cars/renault/alpine-a110/",
-      "BMW Alpina": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/",
-      "BMW Alpina B3": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/b3/",
-      "BMW Alpina B4": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/b4/",
-      "BMW Alpina B5": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/b5/",
-      "BMW Alpina B5 GT": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/b5-gt/",
-      "BMW Alpina B6": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/b6/",
-      "BMW Alpina B7": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/b7/",
-      "BMW Alpina B8": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/b8/",
-      "BMW Alpina D3": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/d3/",
-      "BMW Alpina D3S": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/d3s/",
-      "BMW Alpina D4": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/d4/",
-      "BMW Alpina D4 S": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/d4-s/",
-      "BMW Alpina D5": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/d5/",
-      "BMW Alpina D5 S": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/d5-s/",
-      "BMW Alpina XB7": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/xb7/",
-      "BMW Alpina XD3": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/xd3/",
-      "BMW Alpina XD4": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/xd4/"
-    },
+    "alpine": {},
     "ariel": {
       "Ariel": "https://uae.dubizzle.com/motors/used-cars/ariel/",
       "Ariel Atom": "https://uae.dubizzle.com/motors/used-cars/ariel/atom/"
@@ -162,9 +143,7 @@
       "BAIC X35": "https://uae.dubizzle.com/motors/used-cars/baic/x35/",
       "BAIC X424": "https://uae.dubizzle.com/motors/used-cars/baic/x424/",
       "BAIC X55": "https://uae.dubizzle.com/motors/used-cars/baic/x55/",
-      "BAIC X7": "https://uae.dubizzle.com/motors/used-cars/baic/x7/",
-      "BAC": "https://uae.dubizzle.com/motors/used-cars/bac/",
-      "BAC Mono": "https://uae.dubizzle.com/motors/used-cars/bac/mono/"
+      "BAIC X7": "https://uae.dubizzle.com/motors/used-cars/baic/x7/"
     },
     "bajaj": {},
     "baw": {
@@ -172,50 +151,7 @@
       "BAW 212 T01": "https://uae.dubizzle.com/motors/used-cars/baw/212-t01/",
       "BAW MPV": "https://uae.dubizzle.com/motors/used-cars/baw/mpv/",
       "BAW Pick Up": "https://uae.dubizzle.com/motors/used-cars/baw/pick-up/",
-      "BAW Small Truck": "https://uae.dubizzle.com/motors/used-cars/baw/small-truck/",
-      "BAC": "https://uae.dubizzle.com/motors/used-cars/bac/",
-      "BMW": "https://uae.dubizzle.com/motors/used-cars/bmw/",
-      "BMW Alpina": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/",
-      "BAC Mono": "https://uae.dubizzle.com/motors/used-cars/bac/mono/",
-      "BMW 1-Series": "https://uae.dubizzle.com/motors/used-cars/bmw/1-series/",
-      "BMW 2-Series": "https://uae.dubizzle.com/motors/used-cars/bmw/2-series/",
-      "BMW 3-Series": "https://uae.dubizzle.com/motors/used-cars/bmw/3-series/",
-      "BMW 4-Series": "https://uae.dubizzle.com/motors/used-cars/bmw/4-series/",
-      "BMW 5-Series": "https://uae.dubizzle.com/motors/used-cars/bmw/5-series/",
-      "BMW 6-Series": "https://uae.dubizzle.com/motors/used-cars/bmw/6-series/",
-      "BMW 7-Series": "https://uae.dubizzle.com/motors/used-cars/bmw/7-series/",
-      "BMW 8-Series": "https://uae.dubizzle.com/motors/used-cars/bmw/8-series/",
-      "BMW I3": "https://uae.dubizzle.com/motors/used-cars/bmw/i3/",
-      "BMW I4": "https://uae.dubizzle.com/motors/used-cars/bmw/i4/",
-      "BMW I5": "https://uae.dubizzle.com/motors/used-cars/bmw/i5/",
-      "BMW I8": "https://uae.dubizzle.com/motors/used-cars/bmw/i8/",
-      "BMW IX": "https://uae.dubizzle.com/motors/used-cars/bmw/ix/",
-      "BMW IX1": "https://uae.dubizzle.com/motors/used-cars/bmw/ix1/",
-      "BMW IX2": "https://uae.dubizzle.com/motors/used-cars/bmw/ix2/",
-      "BMW IX3": "https://uae.dubizzle.com/motors/used-cars/bmw/ix3/",
-      "BMW M-Coupe": "https://uae.dubizzle.com/motors/used-cars/bmw/m-coupe/",
-      "BMW M-Roadster": "https://uae.dubizzle.com/motors/used-cars/bmw/m-roadster/",
-      "BMW M1": "https://uae.dubizzle.com/motors/used-cars/bmw/m1/",
-      "BMW M2": "https://uae.dubizzle.com/motors/used-cars/bmw/m2/",
-      "BMW M4": "https://uae.dubizzle.com/motors/used-cars/bmw/m4/",
-      "BMW M5": "https://uae.dubizzle.com/motors/used-cars/bmw/m5/",
-      "BMW M6": "https://uae.dubizzle.com/motors/used-cars/bmw/m6/",
-      "BMW M8": "https://uae.dubizzle.com/motors/used-cars/bmw/m8/",
-      "BMW Other": "https://uae.dubizzle.com/motors/used-cars/bmw/other/",
-      "BMW X1": "https://uae.dubizzle.com/motors/used-cars/bmw/x1/",
-      "BMW X2": "https://uae.dubizzle.com/motors/used-cars/bmw/x2/",
-      "BMW X3": "https://uae.dubizzle.com/motors/used-cars/bmw/x3/",
-      "BMW X4": "https://uae.dubizzle.com/motors/used-cars/bmw/x4/",
-      "BMW X5": "https://uae.dubizzle.com/motors/used-cars/bmw/x5/",
-      "BMW X6": "https://uae.dubizzle.com/motors/used-cars/bmw/x6/",
-      "BMW X7": "https://uae.dubizzle.com/motors/used-cars/bmw/x7/",
-      "BMW XM": "https://uae.dubizzle.com/motors/used-cars/bmw/xm/",
-      "BMW Z1": "https://uae.dubizzle.com/motors/used-cars/bmw/z1/",
-      "BMW Z3": "https://uae.dubizzle.com/motors/used-cars/bmw/z3/",
-      "BMW Z4": "https://uae.dubizzle.com/motors/used-cars/bmw/z4/",
-      "BMW Z8": "https://uae.dubizzle.com/motors/used-cars/bmw/z8/",
-      "BMW Alpina B3": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/b3/",
-      "BMW Alpina B4": "https://uae.dubizzle.com/motors/used-cars/bmw-alpina/b4/"
+      "BAW Small Truck": "https://uae.dubizzle.com/motors/used-cars/baw/small-truck/"
     },
     "bentley": {
       "Bentley": "https://uae.dubizzle.com/motors/used-cars/bentley/",
@@ -394,9 +330,7 @@
       "Cadillac XTR/Eldorado": "https://uae.dubizzle.com/motors/used-cars/cadillac/xtreldorado/",
       "Cadillac XTS": "https://uae.dubizzle.com/motors/used-cars/cadillac/xts/"
     },
-    "casalini": {
-      "Pontiac Catalina": "https://uae.dubizzle.com/motors/used-cars/pontiac/catalina/"
-    },
+    "casalini": {},
     "caterham": {
       "Caterham": "https://uae.dubizzle.com/motors/used-cars/caterham/",
       "Caterham 620 R": "https://uae.dubizzle.com/motors/used-cars/caterham/620-r/",
@@ -405,13 +339,11 @@
       "Caterham Seven 165": "https://uae.dubizzle.com/motors/used-cars/caterham/seven-165/",
       "Caterham Seven 270": "https://uae.dubizzle.com/motors/used-cars/caterham/seven-270/",
       "Caterham Seven 360": "https://uae.dubizzle.com/motors/used-cars/caterham/seven-360/",
-      "Caterham Seven 420": "https://uae.dubizzle.com/motors/used-cars/caterham/seven-420/",
-      "Cadillac CTS/Catera": "https://uae.dubizzle.com/motors/used-cars/cadillac/ctscatera/"
+      "Caterham Seven 420": "https://uae.dubizzle.com/motors/used-cars/caterham/seven-420/"
     },
     "cevo": {
       "CEVO": "https://uae.dubizzle.com/motors/used-cars/cevo/",
-      "CEVO C": "https://uae.dubizzle.com/motors/used-cars/cevo/c/",
-      "Forthing T5 Evo": "https://uae.dubizzle.com/motors/used-cars/forthing/t5-evo/"
+      "CEVO C": "https://uae.dubizzle.com/motors/used-cars/cevo/c/"
     },
     "changan": {
       "Changan": "https://uae.dubizzle.com/motors/used-cars/changan/",
@@ -561,34 +493,12 @@
       "CMC": "https://uae.dubizzle.com/motors/used-cars/cmc/",
       "CMC Other": "https://uae.dubizzle.com/motors/used-cars/cmc/other/",
       "CMC Veryca": "https://uae.dubizzle.com/motors/used-cars/cmc/veryca/",
-      "CMC Z7": "https://uae.dubizzle.com/motors/used-cars/cmc/z7/",
-      "Koenigsegg CC Prototype": "https://uae.dubizzle.com/motors/used-cars/koenigsegg/cc-prototype/",
-      "Mercedes-Benz CLC": "https://uae.dubizzle.com/motors/used-cars/koenigsegg/cc-prototype/",
-      "Volkswagen CC": "https://uae.dubizzle.com/motors/used-cars/mercedes-benz/clc/",
-      "GMC": "https://uae.dubizzle.com/motors/used-cars/volkswagen/cc/",
-      "JMC": "https://uae.dubizzle.com/motors/used-cars/gmc/",
-      "GMC Acadia": "https://uae.dubizzle.com/motors/used-cars/jmc/",
-      "GMC Canyon": "https://uae.dubizzle.com/motors/used-cars/gmc/canyon/",
-      "GMC Envoy": "https://uae.dubizzle.com/motors/used-cars/gmc/envoy/",
-      "GMC Hummer": "https://uae.dubizzle.com/motors/used-cars/gmc/hummer/",
-      "GMC Jimmy": "https://uae.dubizzle.com/motors/used-cars/gmc/jimmy/",
-      "GMC Other": "https://uae.dubizzle.com/motors/used-cars/gmc/other/",
-      "GMC Pickup": "https://uae.dubizzle.com/motors/used-cars/gmc/pickup/",
-      "GMC Savana": "https://uae.dubizzle.com/motors/used-cars/gmc/savana/",
-      "GMC Sierra": "https://uae.dubizzle.com/motors/used-cars/gmc/sierra/",
-      "GMC Suburban": "https://uae.dubizzle.com/motors/used-cars/gmc/suburban/",
-      "GMC Terrain": "https://uae.dubizzle.com/motors/used-cars/gmc/terrain/",
-      "GMC Yukon": "https://uae.dubizzle.com/motors/used-cars/gmc/yukon/",
-      "JMC Grand Avenue": "https://uae.dubizzle.com/motors/used-cars/jmc/grand-avenue/",
-      "JMC NHR": "https://uae.dubizzle.com/motors/used-cars/jmc/nhr/",
-      "JMC NKR": "https://uae.dubizzle.com/motors/used-cars/jmc/nkr/",
-      "JMC Other": "https://uae.dubizzle.com/motors/used-cars/jmc/other/"
+      "CMC Z7": "https://uae.dubizzle.com/motors/used-cars/cmc/z7/"
     },
     "cupra": {
       "Cupra": "https://uae.dubizzle.com/motors/used-cars/cupra/",
       "Cupra Formentor": "https://uae.dubizzle.com/motors/used-cars/cupra/formentor/",
-      "Cupra Other": "https://uae.dubizzle.com/motors/used-cars/cupra/other/",
-      "Toyota Supra": "https://uae.dubizzle.com/motors/used-cars/toyota/supra/"
+      "Cupra Other": "https://uae.dubizzle.com/motors/used-cars/cupra/other/"
     },
     "dacia": {
       "Dacia": "https://uae.dubizzle.com/motors/used-cars/dacia/",
@@ -631,17 +541,14 @@
       "Dayun": "https://uae.dubizzle.com/motors/used-cars/dayun/",
       "Dayun Yuehu": "https://uae.dubizzle.com/motors/used-cars/dayun/yuehu/"
     },
-    "deepal": {
-      "Changan Deepal G318": "https://uae.dubizzle.com/motors/used-cars/changan/deepal-g318/"
-    },
+    "deepal": {},
     "denza": {
       "Denza": "https://uae.dubizzle.com/motors/used-cars/denza/",
       "Denza B5": "https://uae.dubizzle.com/motors/used-cars/denza/b5/",
       "Denza B8": "https://uae.dubizzle.com/motors/used-cars/denza/b8/",
       "Denza D9": "https://uae.dubizzle.com/motors/used-cars/denza/d9/",
       "Denza N9": "https://uae.dubizzle.com/motors/used-cars/denza/n9/",
-      "Denza Z9 GT": "https://uae.dubizzle.com/motors/used-cars/denza/z9-gt/",
-      "Toyota Venza": "https://uae.dubizzle.com/motors/used-cars/toyota/venza/"
+      "Denza Z9 GT": "https://uae.dubizzle.com/motors/used-cars/denza/z9-gt/"
     },
     "detomaso": {},
     "devel": {},
@@ -655,9 +562,7 @@
       "DFSK Glory 580 Pro": "https://uae.dubizzle.com/motors/used-cars/dfsk/glory-580/",
       "DFSK Glory I-Auto": "https://uae.dubizzle.com/motors/used-cars/dfsk/glory-580-pro/",
       "DFSK Landian E5": "https://uae.dubizzle.com/motors/used-cars/dfsk/glory-i-auto/",
-      "DFSK V21": "https://uae.dubizzle.com/motors/used-cars/dfsk/landian-e5/",
-      "DongFeng DFSK V21": "https://uae.dubizzle.com/motors/used-cars/dfsk/v21/",
-      "DongFeng DFSK V22": "https://uae.dubizzle.com/motors/used-cars/dongfeng/dfsk-v21/"
+      "DFSK V21": "https://uae.dubizzle.com/motors/used-cars/dfsk/landian-e5/"
     },
     "dodge": {
       "Dodge": "https://uae.dubizzle.com/motors/used-cars/dodge/",
@@ -710,9 +615,7 @@
       "Dorcen G70S": "https://uae.dubizzle.com/motors/used-cars/dorcen/g70s/"
     },
     "ds automobiles": {},
-    "ducati": {
-      "Fiat Ducato": "https://uae.dubizzle.com/motors/used-cars/fiat/ducato/"
-    },
+    "ducati": {},
     "eicher": {},
     "exeed": {
       "Exeed": "https://uae.dubizzle.com/motors/used-cars/exeed/",
@@ -796,8 +699,7 @@
       "Fiat Punto": "https://uae.dubizzle.com/motors/used-cars/fiat/punto/",
       "Fiat Sienna": "https://uae.dubizzle.com/motors/used-cars/fiat/sienna/",
       "Fiat Tempra": "https://uae.dubizzle.com/motors/used-cars/fiat/tempra/",
-      "Fiat Uno": "https://uae.dubizzle.com/motors/used-cars/fiat/uno/",
-      "Honda Fit": "https://uae.dubizzle.com/motors/used-cars/honda/fit/"
+      "Fiat Uno": "https://uae.dubizzle.com/motors/used-cars/fiat/uno/"
     },
     "fisker": {
       "Fisker": "https://uae.dubizzle.com/motors/used-cars/fisker/",
@@ -806,8 +708,7 @@
     },
     "force": {
       "Force": "https://uae.dubizzle.com/motors/used-cars/force/",
-      "Force Traveller": "https://uae.dubizzle.com/motors/used-cars/force/traveller/",
-      "Kia Forte": "https://uae.dubizzle.com/motors/used-cars/kia/forte/"
+      "Force Traveller": "https://uae.dubizzle.com/motors/used-cars/force/traveller/"
     },
     "ford": {
       "Ford": "https://uae.dubizzle.com/motors/used-cars/ford/",
@@ -890,30 +791,7 @@
       "GAC Gonow Chiller Pickup": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/chiller-pickup/",
       "GAC Gonow M1/M2": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/chiller-pickup/",
       "GAC Gonow Mini Buses": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/m1-m2/",
-      "GAC Gonow Troy 100/500": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/mini-buses/",
-      "GMC": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/troy-100-500/",
-      "GMC Acadia": "https://uae.dubizzle.com/motors/used-cars/gmc/",
-      "GMC Canyon": "https://uae.dubizzle.com/motors/used-cars/gmc/acadia/",
-      "GMC Envoy": "https://uae.dubizzle.com/motors/used-cars/gmc/canyon/",
-      "GMC Jimmy": "https://uae.dubizzle.com/motors/used-cars/gmc/jimmy/",
-      "GMC Other": "https://uae.dubizzle.com/motors/used-cars/gmc/other/",
-      "GMC Pickup": "https://uae.dubizzle.com/motors/used-cars/gmc/pickup/",
-      "GMC Savana": "https://uae.dubizzle.com/motors/used-cars/gmc/savana/",
-      "GMC Sierra": "https://uae.dubizzle.com/motors/used-cars/gmc/sierra/",
-      "GMC Suburban": "https://uae.dubizzle.com/motors/used-cars/gmc/suburban/",
-      "GMC Terrain": "https://uae.dubizzle.com/motors/used-cars/gmc/terrain/",
-      "GMC Yukon": "https://uae.dubizzle.com/motors/used-cars/gmc/yukon/",
-      "Mercedes-Benz GLC": "https://uae.dubizzle.com/motors/used-cars/mercedes-benz/glc/",
-      "Mercedes-Benz GLC 63": "https://uae.dubizzle.com/motors/used-cars/mercedes-benz/glc-63/",
-      "Mercedes-Benz GLC Coupe": "https://uae.dubizzle.com/motors/used-cars/mercedes-benz/glc-coupe/",
-      "BAC": "https://uae.dubizzle.com/motors/used-cars/bac/",
-      "JAC": "https://uae.dubizzle.com/motors/used-cars/jac/",
-      "BAC Mono": "https://uae.dubizzle.com/motors/used-cars/bac/mono/",
-      "JAC City Bus": "https://uae.dubizzle.com/motors/used-cars/jac/city-bus/",
-      "JAC E30X": "https://uae.dubizzle.com/motors/used-cars/jac/e30x/",
-      "JAC HK6730": "https://uae.dubizzle.com/motors/used-cars/jac/hk6730/",
-      "JAC J4": "https://uae.dubizzle.com/motors/used-cars/jac/j4/",
-      "JAC J5": "https://uae.dubizzle.com/motors/used-cars/jac/j5/"
+      "GAC Gonow Troy 100/500": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/mini-buses/"
     },
     "gac gonow": {
       "GAC Gonow": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/",
@@ -922,40 +800,7 @@
       "GAC Gonow Mini Buses": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/mini-buses/",
       "GAC Gonow Troy 100/500": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/troy-100-500/"
     },
-    "gaz": {
-      "GAC": "https://uae.dubizzle.com/motors/used-cars/gac/",
-      "GAC Gonow": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/",
-      "GAC Aion Hyper": "https://uae.dubizzle.com/motors/used-cars/gac/aion-hyper/",
-      "GAC Aion Y": "https://uae.dubizzle.com/motors/used-cars/gac/aion-y/",
-      "GAC EMKOO": "https://uae.dubizzle.com/motors/used-cars/gac/emkoo/",
-      "GAC EMPOW": "https://uae.dubizzle.com/motors/used-cars/gac/empow/",
-      "GAC EMZOOM": "https://uae.dubizzle.com/motors/used-cars/gac/emzoom/",
-      "GAC GA3": "https://uae.dubizzle.com/motors/used-cars/gac/ga3/",
-      "GAC GA4": "https://uae.dubizzle.com/motors/used-cars/gac/ga4/",
-      "GAC GA6": "https://uae.dubizzle.com/motors/used-cars/gac/ga6/",
-      "GAC GA8": "https://uae.dubizzle.com/motors/used-cars/gac/ga8/",
-      "GAC GN6": "https://uae.dubizzle.com/motors/used-cars/gac/gn6/",
-      "GAC GN8": "https://uae.dubizzle.com/motors/used-cars/gac/gn8/",
-      "GAC GS3": "https://uae.dubizzle.com/motors/used-cars/gac/gs3/",
-      "GAC GS4": "https://uae.dubizzle.com/motors/used-cars/gac/gs4/",
-      "GAC GS5": "https://uae.dubizzle.com/motors/used-cars/gac/gs5/",
-      "GAC GS7": "https://uae.dubizzle.com/motors/used-cars/gac/gs7/",
-      "GAC GS8": "https://uae.dubizzle.com/motors/used-cars/gac/gs8/",
-      "GAC M8": "https://uae.dubizzle.com/motors/used-cars/gac/m8/",
-      "GAC Other": "https://uae.dubizzle.com/motors/used-cars/gac/other/",
-      "GAC Trumpchi S7": "https://uae.dubizzle.com/motors/used-cars/gac/trumpchi-s7/",
-      "GAC Gonow Chiller Pickup": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/chiller-pickup/",
-      "GAC Gonow M1/M2": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/chiller-pickup/",
-      "GAC Gonow Mini Buses": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/m1-m2/",
-      "GAC Gonow Troy 100/500": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/mini-buses/",
-      "Ashok Leyland GAZL": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/troy-100-500/",
-      "UAZ": "https://uae.dubizzle.com/motors/used-cars/ashok-leyland/gazl/",
-      "UAZ Cargo": "https://uae.dubizzle.com/motors/used-cars/uaz/",
-      "UAZ Commercial": "https://uae.dubizzle.com/motors/used-cars/uaz/cargo/",
-      "UAZ Hunter": "https://uae.dubizzle.com/motors/used-cars/uaz/commercial/",
-      "UAZ New Patriot": "https://uae.dubizzle.com/motors/used-cars/uaz/hunter/",
-      "UAZ New Pickup": "https://uae.dubizzle.com/motors/used-cars/uaz/new-patriot/"
-    },
+    "gaz": {},
     "geely": {
       "Geely": "https://uae.dubizzle.com/motors/used-cars/geely/",
       "Geely Coolray": "https://uae.dubizzle.com/motors/used-cars/geely/coolray/",
@@ -987,8 +832,7 @@
       "Genesis GV60": "https://uae.dubizzle.com/motors/used-cars/genesis/gv60/",
       "Genesis GV70": "https://uae.dubizzle.com/motors/used-cars/genesis/gv70/",
       "Genesis GV80": "https://uae.dubizzle.com/motors/used-cars/genesis/gv80/",
-      "Genesis Other": "https://uae.dubizzle.com/motors/used-cars/genesis/other/",
-      "Hyundai Genesis": "https://uae.dubizzle.com/motors/used-cars/hyundai/genesis/"
+      "Genesis Other": "https://uae.dubizzle.com/motors/used-cars/genesis/other/"
     },
     "gmc": {
       "GMC": "https://uae.dubizzle.com/motors/used-cars/gmc/",
@@ -1003,42 +847,7 @@
       "GMC Sierra": "https://uae.dubizzle.com/motors/used-cars/gmc/sierra/",
       "GMC Suburban": "https://uae.dubizzle.com/motors/used-cars/gmc/suburban/",
       "GMC Terrain": "https://uae.dubizzle.com/motors/used-cars/gmc/terrain/",
-      "GMC Yukon": "https://uae.dubizzle.com/motors/used-cars/gmc/yukon/",
-      "GAC": "https://uae.dubizzle.com/motors/used-cars/gac/",
-      "GAC Gonow": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/",
-      "GAC Aion Hyper": "https://uae.dubizzle.com/motors/used-cars/gac/aion-hyper/",
-      "GAC Aion Y": "https://uae.dubizzle.com/motors/used-cars/gac/aion-y/",
-      "GAC EMKOO": "https://uae.dubizzle.com/motors/used-cars/gac/emkoo/",
-      "GAC EMPOW": "https://uae.dubizzle.com/motors/used-cars/gac/empow/",
-      "GAC EMZOOM": "https://uae.dubizzle.com/motors/used-cars/gac/emzoom/",
-      "GAC GA4": "https://uae.dubizzle.com/motors/used-cars/gac/ga4/",
-      "GAC GA6": "https://uae.dubizzle.com/motors/used-cars/gac/ga6/",
-      "GAC GA8": "https://uae.dubizzle.com/motors/used-cars/gac/ga8/",
-      "GAC GN6": "https://uae.dubizzle.com/motors/used-cars/gac/gn6/",
-      "GAC GN8": "https://uae.dubizzle.com/motors/used-cars/gac/gn8/",
-      "GAC GS3": "https://uae.dubizzle.com/motors/used-cars/gac/gs3/",
-      "GAC GS4": "https://uae.dubizzle.com/motors/used-cars/gac/gs4/",
-      "GAC GS5": "https://uae.dubizzle.com/motors/used-cars/gac/gs5/",
-      "GAC GS7": "https://uae.dubizzle.com/motors/used-cars/gac/gs7/",
-      "GAC M8": "https://uae.dubizzle.com/motors/used-cars/gac/m8/",
-      "GAC Other": "https://uae.dubizzle.com/motors/used-cars/gac/other/",
-      "GAC S7": "https://uae.dubizzle.com/motors/used-cars/gac/s7/",
-      "GAC Trumpchi S7": "https://uae.dubizzle.com/motors/used-cars/gac/trumpchi-s7/",
-      "GAC Gonow Chiller Pickup": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/chiller-pickup/",
-      "GAC Gonow M1/M2": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/chiller-pickup/",
-      "GAC Gonow Mini Buses": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/m1-m2/",
-      "GAC Gonow Troy 100/500": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/mini-buses/",
-      "Mercedes-Benz GLC": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/troy-100-500/",
-      "Mercedes-Benz GLC 63": "https://uae.dubizzle.com/motors/used-cars/mercedes-benz/glc-63/",
-      "Mercedes-Benz GLC Coupe": "https://uae.dubizzle.com/motors/used-cars/mercedes-benz/glc-coupe/",
-      "CMC": "https://uae.dubizzle.com/motors/used-cars/cmc/",
-      "JMC": "https://uae.dubizzle.com/motors/used-cars/jmc/",
-      "CMC Other": "https://uae.dubizzle.com/motors/used-cars/cmc/other/",
-      "CMC Veryca": "https://uae.dubizzle.com/motors/used-cars/cmc/veryca/",
-      "CMC Z7": "https://uae.dubizzle.com/motors/used-cars/cmc/z7/",
-      "JMC Grand Avenue": "https://uae.dubizzle.com/motors/used-cars/jmc/grand-avenue/",
-      "JMC NHR": "https://uae.dubizzle.com/motors/used-cars/jmc/nhr/",
-      "JMC NKR": "https://uae.dubizzle.com/motors/used-cars/jmc/nkr/"
+      "GMC Yukon": "https://uae.dubizzle.com/motors/used-cars/gmc/yukon/"
     },
     "golden dragon": {},
     "great wall": {
@@ -1077,14 +886,11 @@
       "Higer": "https://uae.dubizzle.com/motors/used-cars/higer/",
       "Higer Coach": "https://uae.dubizzle.com/motors/used-cars/higer/coach/",
       "Higer Mini Bus": "https://uae.dubizzle.com/motors/used-cars/higer/mini-bus/",
-      "Higer Other": "https://uae.dubizzle.com/motors/used-cars/higer/other/",
-      "Grand Tiger": "https://uae.dubizzle.com/motors/used-cars/grand-tiger/",
-      "Grand Tiger Grandtiger Pickup": "https://uae.dubizzle.com/motors/used-cars/grand-tiger/grandtiger-pickup/"
+      "Higer Other": "https://uae.dubizzle.com/motors/used-cars/higer/other/"
     },
     "hino": {
       "Hino": "https://uae.dubizzle.com/motors/used-cars/hino/",
-      "Hino 300": "https://uae.dubizzle.com/motors/used-cars/hino/300/",
-      "Ferrari 246 Dino": "https://uae.dubizzle.com/motors/used-cars/ferrari/246-dino/"
+      "Hino 300": "https://uae.dubizzle.com/motors/used-cars/hino/300/"
     },
     "hiphi": {
       "HiPhi": "https://uae.dubizzle.com/motors/used-cars/hiphi/",
@@ -1094,9 +900,7 @@
       "HiPhi Z": "https://uae.dubizzle.com/motors/used-cars/hiphi/z/"
     },
     "hofele": {},
-    "holden": {
-      "VGV Bolden": "https://uae.dubizzle.com/motors/used-cars/vgv/bolden/"
-    },
+    "holden": {},
     "honda": {
       "Honda": "https://uae.dubizzle.com/motors/used-cars/honda/",
       "Honda Accord": "https://uae.dubizzle.com/motors/used-cars/honda/accord/",
@@ -1125,8 +929,7 @@
       "Honda Prelude": "https://uae.dubizzle.com/motors/used-cars/honda/prelude/",
       "Honda S2000": "https://uae.dubizzle.com/motors/used-cars/honda/s2000/",
       "Honda Van": "https://uae.dubizzle.com/motors/used-cars/honda/van/",
-      "Honda ZR-V": "https://uae.dubizzle.com/motors/used-cars/honda/zr-v/",
-      "Pagani Zonda": "https://uae.dubizzle.com/motors/used-cars/pagani/zonda/"
+      "Honda ZR-V": "https://uae.dubizzle.com/motors/used-cars/honda/zr-v/"
     },
     "hongqi": {
       "Hongqi": "https://uae.dubizzle.com/motors/used-cars/hongqi/",
@@ -1152,8 +955,7 @@
       "Hummer H3": "https://uae.dubizzle.com/motors/used-cars/hummer/h3/",
       "Hummer H3T": "https://uae.dubizzle.com/motors/used-cars/hummer/h3t/",
       "Hummer HX": "https://uae.dubizzle.com/motors/used-cars/hummer/hx/",
-      "Hummer Other": "https://uae.dubizzle.com/motors/used-cars/hummer/other/",
-      "GMC Hummer": "https://uae.dubizzle.com/motors/used-cars/gmc/hummer/"
+      "Hummer Other": "https://uae.dubizzle.com/motors/used-cars/hummer/other/"
     },
     "hycan": {
       "Hycan": "https://uae.dubizzle.com/motors/used-cars/hycan/",
@@ -1280,35 +1082,7 @@
       "JAC S7": "https://uae.dubizzle.com/motors/used-cars/jac/s7/",
       "JAC T6 Pickup": "https://uae.dubizzle.com/motors/used-cars/jac/t6-pickup/",
       "JAC T8": "https://uae.dubizzle.com/motors/used-cars/jac/t8/",
-      "JAC Tourist Bus": "https://uae.dubizzle.com/motors/used-cars/jac/tourist-bus/",
-      "JMC Grand Avenue": "https://uae.dubizzle.com/motors/used-cars/jmc/grand-avenue/",
-      "JMC NHR": "https://uae.dubizzle.com/motors/used-cars/jmc/nhr/",
-      "JMC NKR": "https://uae.dubizzle.com/motors/used-cars/jmc/nkr/",
-      "JMC Other": "https://uae.dubizzle.com/motors/used-cars/jmc/other/",
-      "BAC": "https://uae.dubizzle.com/motors/used-cars/bac/",
-      "GAC": "https://uae.dubizzle.com/motors/used-cars/gac/",
-      "GAC Gonow": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/",
-      "BAC Mono": "https://uae.dubizzle.com/motors/used-cars/bac/mono/",
-      "GAC Aion Hyper": "https://uae.dubizzle.com/motors/used-cars/gac/aion-hyper/",
-      "GAC EMKOO": "https://uae.dubizzle.com/motors/used-cars/gac/emkoo/",
-      "GAC EMPOW": "https://uae.dubizzle.com/motors/used-cars/gac/empow/",
-      "GAC EMZOOM": "https://uae.dubizzle.com/motors/used-cars/gac/emzoom/",
-      "GAC GA3": "https://uae.dubizzle.com/motors/used-cars/gac/ga3/",
-      "GAC GA4": "https://uae.dubizzle.com/motors/used-cars/gac/ga4/",
-      "GAC GA6": "https://uae.dubizzle.com/motors/used-cars/gac/ga6/",
-      "GAC GA8": "https://uae.dubizzle.com/motors/used-cars/gac/ga8/",
-      "GAC GN6": "https://uae.dubizzle.com/motors/used-cars/gac/gn6/",
-      "GAC GN8": "https://uae.dubizzle.com/motors/used-cars/gac/gn8/",
-      "GAC GS3": "https://uae.dubizzle.com/motors/used-cars/gac/gs3/",
-      "GAC GS4": "https://uae.dubizzle.com/motors/used-cars/gac/gs4/",
-      "GAC GS5": "https://uae.dubizzle.com/motors/used-cars/gac/gs5/",
-      "GAC GS7": "https://uae.dubizzle.com/motors/used-cars/gac/gs7/",
-      "GAC GS8": "https://uae.dubizzle.com/motors/used-cars/gac/gs8/",
-      "GAC M8": "https://uae.dubizzle.com/motors/used-cars/gac/m8/",
-      "GAC Other": "https://uae.dubizzle.com/motors/used-cars/gac/other/",
-      "GAC S7": "https://uae.dubizzle.com/motors/used-cars/gac/s7/",
-      "GAC Trumpchi S7": "https://uae.dubizzle.com/motors/used-cars/gac/trumpchi-s7/",
-      "GAC Gonow Chiller Pickup": "https://uae.dubizzle.com/motors/used-cars/gac-gonow/chiller-pickup/"
+      "JAC Tourist Bus": "https://uae.dubizzle.com/motors/used-cars/jac/tourist-bus/"
     },
     "jaecoo": {
       "JAECOO": "https://uae.dubizzle.com/motors/used-cars/jaecoo/",
@@ -1371,16 +1145,13 @@
       "Jetour X90 Plus": "https://uae.dubizzle.com/motors/used-cars/jetour/x90-plus/",
       "Jetour X95": "https://uae.dubizzle.com/motors/used-cars/jetour/x95/"
     },
-    "jetta": {
-      "Volkswagen Jetta": "https://uae.dubizzle.com/motors/used-cars/volkswagen/jetta/"
-    },
+    "jetta": {},
     "ji yue": {
       "Ji Yue": "https://uae.dubizzle.com/motors/used-cars/ji-yue/",
       "Ji Yue 01": "https://uae.dubizzle.com/motors/used-cars/ji-yue/01/",
       "Ji Yue Other": "https://uae.dubizzle.com/motors/used-cars/ji-yue/other/"
     },
     "jin bei": {
-      "Jinbei": "https://uae.dubizzle.com/motors/used-cars/jinbei/",
       "Jinbei Cargo Van": "https://uae.dubizzle.com/motors/used-cars/jinbei/cargo-van/",
       "Jinbei DLX": "https://uae.dubizzle.com/motors/used-cars/jinbei/dlx/",
       "Jinbei H2L Highroof": "https://uae.dubizzle.com/motors/used-cars/jinbei/h2l-highroof/"
@@ -1391,42 +1162,7 @@
       "JMC Grand Avenue": "https://uae.dubizzle.com/motors/used-cars/jmc/grand-avenue/",
       "JMC NHR": "https://uae.dubizzle.com/motors/used-cars/jmc/nhr/",
       "JMC NKR": "https://uae.dubizzle.com/motors/used-cars/jmc/nkr/",
-      "JMC Other": "https://uae.dubizzle.com/motors/used-cars/jmc/other/",
-      "JAC": "https://uae.dubizzle.com/motors/used-cars/jac/",
-      "JAC City Bus": "https://uae.dubizzle.com/motors/used-cars/jac/city-bus/",
-      "JAC E30X": "https://uae.dubizzle.com/motors/used-cars/jac/e30x/",
-      "JAC HK6730": "https://uae.dubizzle.com/motors/used-cars/jac/hk6730/",
-      "JAC J4": "https://uae.dubizzle.com/motors/used-cars/jac/j4/",
-      "JAC J5": "https://uae.dubizzle.com/motors/used-cars/jac/j5/",
-      "JAC J6": "https://uae.dubizzle.com/motors/used-cars/jac/j6/",
-      "JAC J7": "https://uae.dubizzle.com/motors/used-cars/jac/j7/",
-      "JAC JS4": "https://uae.dubizzle.com/motors/used-cars/jac/js4/",
-      "JAC JS6": "https://uae.dubizzle.com/motors/used-cars/jac/js6/",
-      "JAC M1": "https://uae.dubizzle.com/motors/used-cars/jac/m1/",
-      "JAC M4": "https://uae.dubizzle.com/motors/used-cars/jac/m4/",
-      "JAC M5": "https://uae.dubizzle.com/motors/used-cars/jac/m5/",
-      "JAC Other": "https://uae.dubizzle.com/motors/used-cars/jac/other/",
-      "JAC S3": "https://uae.dubizzle.com/motors/used-cars/jac/s3/",
-      "JAC S7": "https://uae.dubizzle.com/motors/used-cars/jac/s7/",
-      "JAC T6 Pickup": "https://uae.dubizzle.com/motors/used-cars/jac/t6-pickup/",
-      "JAC T8": "https://uae.dubizzle.com/motors/used-cars/jac/t8/",
-      "JAC Tourist Bus": "https://uae.dubizzle.com/motors/used-cars/jac/tourist-bus/",
-      "CMC": "https://uae.dubizzle.com/motors/used-cars/cmc/",
-      "GMC": "https://uae.dubizzle.com/motors/used-cars/gmc/",
-      "CMC Other": "https://uae.dubizzle.com/motors/used-cars/cmc/other/",
-      "CMC Veryca": "https://uae.dubizzle.com/motors/used-cars/cmc/veryca/",
-      "CMC Z7": "https://uae.dubizzle.com/motors/used-cars/cmc/z7/",
-      "GMC Canyon": "https://uae.dubizzle.com/motors/used-cars/gmc/canyon/",
-      "GMC Envoy": "https://uae.dubizzle.com/motors/used-cars/gmc/envoy/",
-      "GMC Hummer": "https://uae.dubizzle.com/motors/used-cars/gmc/hummer/",
-      "GMC Jimmy": "https://uae.dubizzle.com/motors/used-cars/gmc/jimmy/",
-      "GMC Other": "https://uae.dubizzle.com/motors/used-cars/gmc/other/",
-      "GMC Pickup": "https://uae.dubizzle.com/motors/used-cars/gmc/pickup/",
-      "GMC Savana": "https://uae.dubizzle.com/motors/used-cars/gmc/savana/",
-      "GMC Sierra": "https://uae.dubizzle.com/motors/used-cars/gmc/sierra/",
-      "GMC Suburban": "https://uae.dubizzle.com/motors/used-cars/gmc/suburban/",
-      "GMC Terrain": "https://uae.dubizzle.com/motors/used-cars/gmc/terrain/",
-      "GMC Yukon": "https://uae.dubizzle.com/motors/used-cars/gmc/yukon/"
+      "JMC Other": "https://uae.dubizzle.com/motors/used-cars/jmc/other/"
     },
     "jmev": {},
     "joylong": {},
@@ -1438,12 +1174,8 @@
       "Kaiyi X3 Pro": "https://uae.dubizzle.com/motors/used-cars/kaiyi/x3-pro/",
       "Kaiyi X7": "https://uae.dubizzle.com/motors/used-cars/kaiyi/x7/"
     },
-    "kama": {
-      "Fisker Karma": "https://uae.dubizzle.com/motors/used-cars/fisker/karma/"
-    },
-    "karry": {
-      "Suzuki Carry": "https://uae.dubizzle.com/motors/used-cars/suzuki/carry/"
-    },
+    "kama": {},
+    "karry": {},
     "kawei auto": {},
     "kenbo": {}
   }
