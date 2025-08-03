@@ -21,7 +21,7 @@ def flag_make(make, og_count):
 
     count = 0
     flagged = False
-    for _ in full_data["dubizzle"][make]:
+    for model in full_data["dubizzle"][make]:
         count+=1
 
     if (count != og_count):
@@ -35,13 +35,6 @@ def find_missing_models(make, model_dict):
 
     og_set = set()
     incomplete_set = set()
-
-    filepath = 'car_data/multi_threading_links_completed.json'
-    if os.path.exists(filepath):
-        with open(filepath, 'r') as f:
-            incomplete_data = json.load(f)
-    else:
-        incomplete_data = {"dubizzle": {}}
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.get("https://www.dubizzle.com/motors/used-cars/")
@@ -157,58 +150,60 @@ def clean_models(make, model_dict):
 
 if __name__ == "__main__":
     
-    # with open('car_data/make_model_links.json', 'r') as f:
-    #     full_data = json.load(f)
+    with open('car_data/filled_multi_threading_links.json', 'r') as f:
+        full_data = json.load(f)
 
-    with open('car_data/models_count.json', 'r') as f:
-        count_data = json.load(f)
+    # with open('car_data/models_count.json', 'r') as f:
+    #     count_data = json.load(f)
 
-    with open('car_data/multi_threading_links.json', 'r') as f:
-        incomplete_data = json.load(f)
+    # with open('car_data/multi_threading_links.json', 'r') as f:
+    #     incomplete_data = json.load(f)
 
-    complete_data = {"dubizzle": {}}
+    # complete_data = {"dubizzle": {}}
 
-    flagged_makes_count = 0
-    for make in incomplete_data["dubizzle"]:
-        if flag_make(make, count_data["dubizzle"][make]):
-            flagged_makes_count+=1
-            print("------------------------------------------------------------\n")
-            print(f'--->[{make}] has been flagged as incomplete\n')
-            print("------------------------------------------------------------\n")
-            complete_dict = find_missing_models(make, model_dict=incomplete_data["dubizzle"][make])
-            complete_data["dubizzle"][make] = complete_dict
-            print("------------------------------------------------------------\n")
-            print(f"--->This is the complete dictionary with {len(complete_dict)} models: \n{complete_dict.keys()}\n")
-            print("------------------------------------------------------------\n")
-        else:
-            complete_data["dubizzle"][make] = incomplete_data["dubizzle"][make]
+    # flagged_makes_count = 0
+    # for make in incomplete_data["dubizzle"]:
+    #     if flag_make(make, count_data["dubizzle"][make]):
+    #         flagged_makes_count+=1
+    #         print("------------------------------------------------------------\n")
+    #         print(f'--->[{make}] has been flagged as incomplete\n')
+    #         print("------------------------------------------------------------\n")
+    #         complete_dict = find_missing_models(make, model_dict=incomplete_data["dubizzle"][make])
+    #         complete_data["dubizzle"][make] = complete_dict
+    #         print("------------------------------------------------------------\n")
+    #         print(f"--->This is the complete dictionary with {len(complete_dict)} models: \n{complete_dict.keys()}\n")
+    #         print("------------------------------------------------------------\n")
+    #     else:
+    #         complete_data["dubizzle"][make] = incomplete_data["dubizzle"][make]
 
-        with open('car_data/filled_multi_threading_links.json', 'w') as f:
-            json.dump(complete_data, f, indent=2)
+    #     with open('car_data/filled_multi_threading_links.json', 'w') as f:
+    #         json.dump(complete_data, f, indent=2)
 
     # print(f"{flagged_makes_count} makes were flagged as having missing models")
 
-    # true_model = False
+    true_model = False
     
-    # for make in full_data["dubizzle"]:
-    #     model_dict = full_data["dubizzle"][make]
+    for make in full_data["dubizzle"]:
+        model_dict = full_data["dubizzle"][make]
 
-    #     # ----- Printing the current make and models for that make ----- #
-    #     # print(f"This is the make: {make} and these are the {len(model_dict)} current models: ")
-    #     # for model in model_dict:
-    #     #     print(model)
-    #     # ------------------------- END OF PRINT FUNTCTION --------------#
+        # ----- Printing the current make and models for that make ----- #
+        # print(f"This is the make: {make} and these are the {len(model_dict)} current models: ")
+        # for model in model_dict:
+        #     print(model)
+        # ------------------------- END OF PRINT FUNTCTION --------------#
         
-    #     new_model_dict, removed_models_list = clean_models(make, model_dict)
+        new_model_dict, removed_models_list = clean_models(make, model_dict)
 
-    #     print(f"These models have been removed for infringement reasons: {removed_models_list}")
-    #     # print(f"These are the {len(new_model_dict)} true models for {make}:")
+        print(f"These models have been removed for infringement reasons: {removed_models_list}")
+        # print(f"These are the {len(new_model_dict)} true models for {make}:")
 
-    #     for models in new_model_dict:
-    #         # print(models)
-    #         new_model_dict[models] = model_dict[models]
-    #     # print(new_model_dict)
-    #     full_data["dubizzle"][make] = new_model_dict
+        for models in new_model_dict:
+            # print(models)
+            new_model_dict[models] = model_dict[models]
+        # print(new_model_dict)
+        full_data["dubizzle"][make] = new_model_dict
 
-    # with open('car_data/cleaned_model_links.json', 'w') as f:
-    #     json.dump(full_data, f, indent=2)
+    sorted_data = dict(sorted(full_data["dubizzle"].items()))
+
+    with open('car_data/cleaned_model_links.json', 'w') as f:
+        json.dump(full_data, f, indent=2)
