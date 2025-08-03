@@ -150,7 +150,7 @@ def clean_models(make, model_dict):
 
 if __name__ == "__main__":
     
-    with open('car_data/filled_multi_threading_links.json', 'r') as f:
+    with open('car_data/cleaned_model_links.json', 'r') as f:
         full_data = json.load(f)
 
     # with open('car_data/models_count.json', 'r') as f:
@@ -181,29 +181,29 @@ if __name__ == "__main__":
 
     # print(f"{flagged_makes_count} makes were flagged as having missing models")
 
-    true_model = False
+    # true_model = False
     
-    for make in full_data["dubizzle"]:
-        model_dict = full_data["dubizzle"][make]
+    # for make in full_data["dubizzle"]:
+    #     model_dict = full_data["dubizzle"][make]
 
-        # ----- Printing the current make and models for that make ----- #
-        # print(f"This is the make: {make} and these are the {len(model_dict)} current models: ")
-        # for model in model_dict:
-        #     print(model)
-        # ------------------------- END OF PRINT FUNTCTION --------------#
+    #     # ----- Printing the current make and models for that make ----- #
+    #     # print(f"This is the make: {make} and these are the {len(model_dict)} current models: ")
+    #     # for model in model_dict:
+    #     #     print(model)
+    #     # ------------------------- END OF PRINT FUNTCTION --------------#
         
-        new_model_dict, removed_models_list = clean_models(make, model_dict)
+    #     new_model_dict, removed_models_list = clean_models(make, model_dict)
 
-        print(f"These models have been removed for infringement reasons: {removed_models_list}")
-        # print(f"These are the {len(new_model_dict)} true models for {make}:")
+    #     print(f"These models have been removed for infringement reasons: {removed_models_list}")
+    #     # print(f"These are the {len(new_model_dict)} true models for {make}:")
 
-        for models in new_model_dict:
-            # print(models)
-            new_model_dict[models] = model_dict[models]
-        # print(new_model_dict)
-        full_data["dubizzle"][make] = new_model_dict
+    #     for models in new_model_dict:
+    #         # print(models)
+    #         new_model_dict[models] = model_dict[models]
+    #     # print(new_model_dict)
+    #     full_data["dubizzle"][make] = new_model_dict
 
     sorted_data = dict(sorted(full_data["dubizzle"].items()))
 
     with open('car_data/cleaned_model_links.json', 'w') as f:
-        json.dump(full_data, f, indent=2)
+        json.dump(sorted_data, f, indent=2)
