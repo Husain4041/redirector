@@ -57,7 +57,7 @@ def format_make(make):
 @app.route('/', methods=['GET', 'POST'])
 def index():
 
-    with open('car_makes_models.json', 'r') as f:
+    with open('usable_car_data/car_makes_models.json', 'r') as f:
         car_data = json.load(f)
 
     # car_data = {

@@ -15,16 +15,22 @@
             <h1 class="text-lg font-bold mb-2">Search on these sites for:</h1>
         </div>
         <div class="flex flex-wrap justify-center mt-8">
-            <div class="bg-white p-6 shadow-md">
-                <p class="text-gray-800 mb-8 font-semibold">{{make_display}} {{model_display}}</p>
+            <div class="bg-white p-6 shadow-md w-[345px] flex flex-col items-center ">
+                <p class="text-gray-800 mb-4 font-semibold">{{make_display}} {{model_display}}</p>
+                <select name="model" id="model" class="border border-gray-300 mt-2 p-2 rounded w-[200px] mb-4 hover:shadow-md">
+                    <option value="">Select Model</option>
+                </select>
                 <a href="https://dubai.dubizzle.com/motors/used-cars/{{make_lower}}/{{model_lower}}"
                     class="inline-block mt-16 bg-rose-600 text-white px-6 py-2 rounded hover:bg-rose-400 hover:shadow-md"
                     target="_blank">
                     View on Dubizzle
                 </a>
             </div>
-            <div class="bg-white p-6 shadow-md">
+            <div class="bg-white p-6 shadow-md w-[345px]">
                 <p class="text-gray-800 mb-8 font-semibold">{{make_display}} {{model_display}}</p>
+                <select name="model" id="model" class="border border-gray-300 mt-4 p-2 rounded w-[200px] mb-4 hover:shadow-md">
+                    <option value="">Select Model</option>
+                </select>
                 <a href="https://dubicars.com/uae/used/{{make_lower}}/{{model_lower}}"
                     class="inline-block mt-16 bg-[#3b4a59] text-white px-6 py-2 rounded hover:bg-[#818891] hover:shadow-md"
                     target="_blank">
